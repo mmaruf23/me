@@ -6,10 +6,10 @@ const bulan =
     ? "0" + (now.getMonth() + 1).toString()
     : (now.getMonth() + 1).toString();
 const minggu =
-  tanggal <= 7 ? "100" : tanggal <= 15 ? "200" : tanggal <= 23 ? "300" : "400";
+  tanggal <= 7 ? "10" : tanggal <= 15 ? "20" : tanggal <= 23 ? "30" : "40";
 const periode = tahun + bulan + minggu;
 
-const plus = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13];
+const plus = ["06", "07", "08", "09", "10", "11"];
 const target = document.querySelectorAll("table")[2].insertRow();
 plus.forEach((plu) => {
   const item = document.createElement("th");
