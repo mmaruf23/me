@@ -9,7 +9,7 @@ const minggu =
   tanggal <= 7 ? "10" : tanggal <= 15 ? "20" : tanggal <= 23 ? "30" : "40";
 const periode = tahun + bulan + minggu;
 
-const plus = ["06", "07", "08", "09", "10", "11"];
+const plus = ["01", "02", "03", "04", "05", "06", "07", "08", "09", "10", "11", "12"];
 const target = document.querySelectorAll("table")[2].insertRow();
 plus.forEach((plu) => {
   const item = document.createElement("th");
