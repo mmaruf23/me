@@ -17,7 +17,7 @@ const navigation: NavigationItem[] = [
 
 export default function Navbar() {
   return (
-    <Disclosure as="nav" className="bg-gray-800 sticky top-0 left-0 z-50">
+    <Disclosure as="nav" className="bg-black sticky top-0 left-0 z-50">
       {({ open }) => (
         <>
           <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
@@ -60,7 +60,7 @@ export default function Navbar() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="block px-4 py-2 text-white"
+                className="block px-4 py-2 text-white hover:bg-gray-600 "
               >
                 {item.label}
               </Link>
