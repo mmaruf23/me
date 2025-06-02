@@ -1,12 +1,14 @@
-import AboutSection from '@/components/ui/AboutSection';
-import ContactSection from '@/components/ui/ContactSection';
-import ExperienceSection from '@/components/ui/ExperienceSection';
-import HeroSection from '@/components/ui/HeroSection';
+import {
+  AboutSection,
+  ContactSection,
+  ExperienceSection,
+  HeroSection,
+} from '@/components/ui';
 import React from 'react';
 
 const Home = () => {
   return (
-    <div className="text-center">
+    <div className="flex flex-col items-center">
       <HeroSection />
       <AboutSection />
       <ExperienceSection />

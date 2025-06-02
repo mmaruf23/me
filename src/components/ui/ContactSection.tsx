@@ -1,7 +1,11 @@
 import React from 'react';
 
 const ContactSection = () => {
-  return <div className="h-svh">ContactSection</div>;
+  return (
+    <div id="contact" className="h-svh pt-20">
+      ContactSection
+    </div>
+  );
 };
 
 export default ContactSection;

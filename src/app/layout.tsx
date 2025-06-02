@@ -15,8 +15,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`antialiased relative h-svh flex flex-col bg-gray-800`}>
-        <div className="flex-1 overflow-y-scroll scrollbar-hide">
+      <body className={`antialiased relative h-svh flex flex-col bg-base-100`}>
+        <div className="flex-1 overflow-y-scroll scrollbar-hide scroll-smooth">
           <Navbar />
           <ContactInfo />
           {children}
