@@ -4,7 +4,7 @@ import { Navbar } from '@/components/layouts/Navbar';
 import ContactInfo from '@/components/layouts/ContactInfo';
 
 export const metadata: Metadata = {
-  title: 'Me',
+  title: 'MUHAMMAD MARUF',
   description: 'My Portofolio',
 };
 
