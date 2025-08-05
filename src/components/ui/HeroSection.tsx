@@ -10,13 +10,17 @@ const HeroSection = () => {
             Muhammad Ma&apos;ruf
           </p>
           <p className="text-2xl sm:text-4xl md:text-5xl text-white/80">
-            I&apos;m a Fullstack Developer
+            I&apos;m a Junior Developer
           </p>
         </div>
         <p className="text-sm sm:text-base md:text-lg lg:text-xl lg:w-2xl mt-4 lg:mt-6 text-white/80">
-          Passionate Web Developer with experience in building dynamic and
-          response web application. Skilled in PHP (Laravel), Next.js, Spring
-          Framework and other modern web technologies.
+          A highly motivated junior developer with a strong passion for
+          technology and a quick ability to adapt to new concepts and systems.
+          Possessing hands-on experience in building fullstack applications,
+          both independently and collaboratively. Proficient in communication,
+          analytical thinking, and adaptability within work environments. Eager
+          to contribute as a Backend Engineer, Fullstack Developer, or in other
+          technical roles.
         </p>
       </div>
     </div>
