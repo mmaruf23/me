@@ -12,7 +12,7 @@ const NavbarItem = ({ href, label, index }: NavigationItemWithIndex) => {
       className="hover:underline underline-offset-4 hover:text-gray-300"
       href={href}
     >
-      <span className="text-secondary">{i + '. '}</span>
+      <span className="text-primary">{i + '. '}</span>
       {label}
     </a>
   );
