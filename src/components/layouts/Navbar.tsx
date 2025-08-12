@@ -14,7 +14,7 @@ export const Navbar = () => {
   ];
   return (
     <div className="sticky z-10 top-0 flex justify-between items-center px-10 py-6 shadow-lg bg-indigo-950/10 backdrop-blur-xs text-white">
-      <Link href="/">
+      <Link href="/#">
         <div className="border-x-2 rounded-md border-primary">
           <div className="border-x-2 mx-1 rounded-md border-blue-400">
             <span className="border-2 border-primary mx-1 rounded-md font-mono px-1 text-white">
